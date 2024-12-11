@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ecommerce-back"
+version = "0.1.0"
+description = ""
+authors = ["Shadowblued <drmf135@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.7"
+sqlalchemy = "^2.0.36"
+psycopg2 = "^2.9.10"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+pydantic-settings = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
